@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Layer">
+      <UniqueIdentifier>{4ad44ded-b018-4130-b20a-74727a8833f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{d38683a8-a48d-4780-8a6c-7df2f70e512c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity">
+      <UniqueIdentifier>{13b0cbcb-6102-4299-ad12-dd5710f8c78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Util">
+      <UniqueIdentifier>{047e1926-4387-4039-880f-cb86d67d33ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity\FloatText">
+      <UniqueIdentifier>{1f51532b-358d-4885-a712-13ec69e46b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Util\zhCN">
+      <UniqueIdentifier>{50e16038-0964-4e26-a71d-8c9b485bcbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity\TopMenu">
+      <UniqueIdentifier>{6b667369-bd53-42a6-a20a-ca098663d14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Util\GameData">
+      <UniqueIdentifier>{ed022a1d-1b77-4fd3-86c7-6b71f5aed62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity\Star">
+      <UniqueIdentifier>{4c19fbf1-7aa5-40ee-88f7-d011b12fa4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity\StarMatrix">
+      <UniqueIdentifier>{aad66e91-8b46-41d6-b532-25850d495470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Entity\Effect">
+      <UniqueIdentifier>{708d1ca4-58bf-4f9b-bf71-1d6b0f977034}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\MenuLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\FloatText\FloatText.cpp">
+      <Filter>Classes\Entity\FloatText</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\MenuScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\zhCN\zhCN.cpp">
+      <Filter>Classes\Util\zhCN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Layer\GameLayer.cpp">
+      <Filter>Classes\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\GameScene.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\TopMenu\TopMenu.cpp">
+      <Filter>Classes\Entity\TopMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Util\GameData\GameData.cpp">
+      <Filter>Classes\Util\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Star\Star.cpp">
+      <Filter>Classes\Entity\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\StarMatrix\StarMatrix.cpp">
+      <Filter>Classes\Entity\StarMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Effect\ComboEffect.cpp">
+      <Filter>Classes\Entity\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity\Effect\StarParticle.cpp">
+      <Filter>Classes\Entity\Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\MenuLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\FloatText\FloatText.h">
+      <Filter>Classes\Entity\FloatText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\MenuScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\zhCN\zhCN.h">
+      <Filter>Classes\Util\zhCN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer\GameLayer.h">
+      <Filter>Classes\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\GameScene.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\TopMenu\TopMenu.h">
+      <Filter>Classes\Entity\TopMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\GameData\GameData.h">
+      <Filter>Classes\Util\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Star\Star.h">
+      <Filter>Classes\Entity\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\StarMatrix\StarMatrix.h">
+      <Filter>Classes\Entity\StarMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Effect\ComboEffect.h">
+      <Filter>Classes\Entity\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity\Effect\StarParticle.h">
+      <Filter>Classes\Entity\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
